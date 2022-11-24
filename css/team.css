@@ -178,6 +178,10 @@ a {
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
+.team__apparats h1{
+    font-size: 25px !important;
+}
+
 @media (max-width: 767px) {
     .footer_list-klinik a p{
         font-size: 15px !important;
@@ -313,6 +317,7 @@ a {
 .number {
     font-size: 25px;
 }
+
 
 
 .footer_list li {
