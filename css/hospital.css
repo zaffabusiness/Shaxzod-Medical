@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ===HEADER STARTS=== */
+/* =================== */
+
+.navbar {
+    background: #1BAC0E;
+    border: 2px solid yellow;
+
+}
+
+.nav-link {
+    padding: 15px !important;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .2s linear;
+}
+
+.nav-link:hover {
+    background: rgba(0, 0, 0, 0.212) ;
+    transition: .2s linear;
+    opacity: 0.7;
+}   
+
+.til{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+}
+
+.til:hover{
+    color: white;
+    background:  #26850a;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: center;
+}
+
+.hospital{
+    background-image: url(../img/hospital-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.klinika__logo {
+    width: 100px;
+}
+
+/* ===HEADER FINISHED=== */
+/* ===================== */
+
+
+/* ===MAIN STARTS=== */
+/* ================= */
+
+.info__block {
+    background: #AB6EE7;
+    height: 129px;
+    border-radius: 100px;
+}
+
+.hospital__circle{
+    background-image: url(../img/hospital-instrument.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.hospital__treatment{
+    background-image: url(../img/specialists-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.hospital__more-info i{
+    color: #1BAC0E;
+}
+
+.hospital__room{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #1BAC0E;
+}
+
+@media (max-width: 767px) {
+    .footer_list-klinik a p{
+        font-size: 15px !important;
+    }
+
+    .number{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .hospital__room{
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hospital__room{
+        width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hospital__room{
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hospital__room{
+        width: 250px;
+    }
+}
+
+
+/* === FOOTER STARTS === */
+
+.footer{
+    background:#DCDCDC;
+}
+
+.contact{
+    padding-bottom: 150px;
+}
+
+.number{
+    font-size: 30px;
+}
+
+@media (max-width: 320px) {
+    .number{
+        font-size: 15px;
+    }
+}
+   
+.footer_list li{
+    list-style: none;
+}
+
+.footer_link a{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer_list-klinik a{
+    font-size: 28px;
+}
+
+.footer_list-klinik i{
+    color: #1BAC0E;
+    text-decoration: none;
+}
+
+.phone__ico{
+    color: #1BAC0E;
+}
+
+/* ===FOOTER FINISHED=== */
+/* ===================== */

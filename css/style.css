@@ -1,0 +1,1318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #1BAC0E;
+    backdrop-filter: blur(20px) !important;
+    border: 2px solid yellow;
+}
+
+.til{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+}
+
+.til:hover{
+    color: white;
+    background:  #26850a;
+}
+
+.nav-item {
+    padding: 15px;
+    transition: .2s linear;
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background: rgba(0, 0, 0, 0.212);
+    transition: .2s linear;
+}
+
+.nav-link {
+    font-size: 20px;
+    transition: .2s linear;
+}
+
+.nav-link:hover {
+    transition: .2s linear;
+    opacity: 0.7;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: center;
+}
+
+@media (max-width: 1090px) {
+    .header__info h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .header__info h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 835px) {
+    .header__info h2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer_list-klinik a p {
+        font-size: 15px !important;
+    }
+
+    .number {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 670px) {
+    .header__info h2 {
+        font-size: 15px;
+    }
+}
+
+/* ===================== */
+@media (max-width: 1090px) {
+    .header__info h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .header__info h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 835px) {
+    .header__info h1 {
+        font-size: 25px;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 670px) {
+    .header__info h1 {
+        font-size: 20px;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* ======================= */
+@media (max-width: 1090px) {
+    .header__info p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .header__info p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 835px) {
+    .header__info p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 670px) {
+    .header__info p {
+        font-size: 11px;
+    }
+}
+
+/* ======================== */
+
+.klinika__logo {
+    width: 100px;
+}
+
+
+
+
+@media (max-width: 1412px) {
+    .klinika__img-2 {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .klinika__img-2 {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .klinika__img-2 {
+        width: 270px;
+    }
+}
+
+
+@media (max-width: 1276px) {
+    .klinika__img-2 {
+        width: 260px;
+    }
+}
+
+@media (max-width: 1236px) {
+    .klinika__img-2 {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .klinika__img-2 {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .klinika__img-2 {
+        width: 215px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .klinika__img-2 {
+        width: 215px;
+    }
+}
+
+@media (max-width: 1066px) {
+    .klinika__img-2 {
+        width: 210px;
+    }
+}
+
+@media (max-width: 1065px) {
+    .klinika__img-2 {
+        width: 210px;
+    }
+}
+
+@media (max-width: 1036px) {
+    .klinika__img-2 {
+        width: 190px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .klinika__img-2 {
+        width: 190px;
+    }
+}
+
+@media (max-width: 991px) {
+    .klinika__img-2 {
+        width: 160px;
+    }
+}
+
+@media (max-width: 835px) {
+    .klinika__img-2 {
+        width: 140px;
+    }
+}
+
+@media (max-width: 615px) {
+    .klinika__img-2 {
+        width: 120px;
+    }
+}
+
+@media (max-width: 577px) {
+    .klinika__img-2 {
+        width: 105px;
+    }
+}
+
+.header__klinika {
+    background-image: url(../img/header-bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+
+@media (max-width: 616px) {
+    .klinika-text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .klinika-text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .klinika-text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .klinika-text__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .clinika__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .clinika__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .clinika__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.klinika__info {
+    font-size: 26px;
+}
+
+@media (max-width: 1236px) {
+    .klinika__img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .klinika__img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .klinika__img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .klinika__img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1065px) {
+    .klinika__img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1035px) {
+    .klinika__img {
+        width: 370px;
+    }
+}
+
+@media (max-width: 991px) {
+    .klinika__img {
+        width: 320px;
+    }
+}
+
+@media (max-width: 836px) {
+    .klinika__img {
+        width: 290px;
+    }
+}
+
+@media (max-width: 616px) {
+    .klinika__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 577px) {
+    .klinika__img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 425px) {
+    .klinika__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .klinika__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .klinika__img {
+        width: 250px;
+    }
+}
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+/* ===CUSTOM BUTTON 5=== */
+/* ===================== */
+.btn-5 {
+    width: 230px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(143, 0, 238);
+    background-color: #1BAC0E;
+}
+
+@media (max-width: 991px) {
+    .btn-5 {
+        width: 180px;
+    }
+}
+
+@media (max-width: 835px) {
+    .btn-5 {
+        width: 140px;
+    }
+}
+
+
+.btn-5:hover {
+    color: rgb(238, 238, 238);
+    background: transparent;
+    box-shadow: none;
+    text-shadow: 0px 0px 10px white;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background-color: #7FFF00;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+/* ===CUSTOM BUTTON 5=== */
+/* ===================== */
+
+/* ===HEADER FINISHED=== */
+/* ===================== */
+
+/* ===MAIN STARTS=== */
+/* ================= */
+
+.info__block {
+    background-color: #1BAC0E;
+    border-radius: 100px;
+    position: relative;
+    top: -30px;
+    padding: 20px;
+}
+
+@media (max-width: 761px) {
+    .info__block p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .info__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .info__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .info__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* ========================== */
+
+@media (max-width: 425px) {
+    .more__block {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .more__block {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .more__block {
+        text-align: center;
+    }
+}
+
+/* ================== */
+
+.col__info {
+    color: #228B22;
+    font-size: 90px;
+    text-shadow: 0px 0px 10px #1BAC0E;
+}
+
+@media (max-width: 1400px) {
+    .col__info {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .col__info {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .col__info {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 761px) {
+    .col__info {
+        font-size: 30px;
+    }
+}
+
+.col__info-2 {
+    font-size: 24px;
+    color: #1BAC0E;
+}
+
+@media (max-width :1400px) {
+    .col__info-2 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (max-width :761px) {
+    .col__info-2 {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+
+/* ===KLINIKA SETVICES STARTS=== */
+/* ============================= */
+
+.klinika__services {
+    background-image: url(../img/services-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 1400px) {
+    .services__cols-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .services__cols-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.klinika__services-info {
+    width: 200px;
+    height: 50px;
+    transition: .2s linear;
+
+}
+
+.klinika__services-info:hover{
+    box-shadow: 0px 0px 10px black;
+    border-radius: 6px;
+    transition: .2s linear;
+
+}
+
+.btn__cons{
+    width: 100%;
+}
+
+
+.tab__pane-info {
+    color: #1BAC0E;
+    font-size: 30px;
+}
+
+.services__info {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:1400px) {
+    .services__info {
+        padding: 0;
+    }
+}
+
+@media (max-width:425px) {
+    .services__info {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+}
+
+@media (max-width:375px) {
+    .services__info {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .services__info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.chooese__block {
+    background: white;
+    width: 382px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+@media (max-width: 991px) {
+    .chooese__block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .chooese__block {
+    width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .chooese__block {
+    width: 300px;
+    }
+}
+
+/* @media (max-width: 1400px) {
+    .chooese__block{
+        width: 350px;
+    }
+} */
+
+@media (max-width:425px) {
+    .tel__col {
+        width: 220px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:375px) {
+    .tel__col {
+        width: 220px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:320px) {
+    .tel__col {
+        width: 220px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* ===LIGHT BTN=== */
+/* =============== */
+
+.light__btn .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .light__btn .btn {
+        width: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .light__btn .btn {
+        width: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    .light__btn .btn {
+        width: 200px;
+    }
+}
+
+.light__btn .btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+
+.light__btn .btn:hover a {
+    letter-spacing: 3px;
+}
+
+.light__btn .btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.light__btn .btn:hover a::before {
+    transform: skewX(45deg) translate(200px);
+}
+
+.light__btn .btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.light__btn .btn:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.light__btn .btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.light__btn .btn:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.light__btn .btn:nth-child(1)::before,
+.light__btn .btn:nth-child(1)::after {
+    background: #1BAC0E;
+    box-shadow: 0 0 5px #228B22, 0 0 15px #228B22, 0 0 30px #228B22, 0 0 60px #1BAC0E;
+}
+
+/* ===KLINIKA SERVICES FINISHED=== */
+/* =============================== */
+
+
+/* === SPECIALISTS STARTS=== */
+/* ========================= */
+
+.specialists__info {
+    color: #452368;
+}
+
+@media (max-width: 991px) {
+    .specialists__info {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+/* ====================== */
+
+.specialists__info-2 {
+    color: #452368;
+}
+
+@media (max-width: 991px) {
+    .specialists__info-2 {
+        text-align: center;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+/* =================== */
+
+@media (max-width:425px) {
+    .special__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:375px) {
+    .special__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:320px) {
+    .special__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* ==================== */
+
+@media (max-width: 425px) {
+    .special-img__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .special-img__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .special-img__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+/* ========================== */
+
+.specialists__img {
+    box-shadow: 0px 0px 10px #1BAC0E;
+    border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+    .specialists__img {
+        width: 450px;
+    }
+}
+@media (max-width: 577px) {
+    .specialists__img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 425px) {
+    .specialists__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .specialists__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .specialists__img {
+        width: 250px;
+    }
+}
+
+/* ===================== */
+@media (max-width: 425px) {
+    .location__img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .location__img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .location__img {
+        width: 230px;
+    }
+}
+
+/* ================= */
+
+@media (max-width: 320px) {
+    .location__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/* 9 */
+
+.btn-9 {
+    width: 259px;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.btn-9:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #228B22 !important;
+    background-image: linear-gradient(315deg, #228B22 0%, #2ed62e 74%);
+    transition: all 0.3s ease;
+}
+
+.btn-9:hover {
+    background: transparent;
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
+        inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+}
+
+.btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
+        inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+@media (max-width: 991px) {
+    .special__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* ========================= */
+
+@media (max-width: 991px) {
+    .special-img__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* === SPECIALISTS FINISHED=== */
+/* ========================= */
+
+
+/* ===ARTICLES=== */
+/* ============== */
+
+.articles {
+    background: rgba(168, 109, 227, 0.2);
+}
+
+@media (max-width: 510px){
+    .video iframe{
+        width: 300px !important;
+        height: 150px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .articles__blocks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    .articles__blocks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .articles__blocks {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.articles button {
+    width: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #AA6CE9;
+    border: none;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.articles button:hover {
+    background-color: #d1a3ff;
+    transition: .3s ease-in-out;
+    font-size: 20px;
+}
+
+
+/* ===SECTION VIDEO STARTS=== */
+
+
+.video iframe{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+/* === ATICLES FINISHED === */
+
+/* === FOOTER STARTS === */
+
+.footer {
+    padding: 20px;
+    padding-bottom: 150px;
+    background: #DCDCDC;
+}
+
+.contact{
+    padding-bottom: 150px;
+}
+
+/* .hot_img{
+    margin-top: 160px;
+} */
+
+.hot_line {
+    font-size: 46px;
+    /* margin-top: 160px;
+   margin-left: 15px; */
+    color: red;
+}
+
+.phone__ico {
+    font-size: 30px;
+    color: #228B22;
+}
+
+.location__ico {
+    font-size: 30px;
+    color: #228B22;
+}
+
+
+.number {
+    font-size: 30px;
+}
+
+@media (max-width: 991px) {
+    .number {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .number {
+        font-size: 15px;
+    }
+}
+
+
+.footer_list li {
+    list-style: none;
+}
+
+.footer_link a {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer_link a:hover {
+    color: #1BAC0E;
+}
+
+@media (max-width: 320px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*========================  */
+
+@media (max-width: 991px) {
+    .menu {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+.footer_list-klinik a {
+    font-size: 28px;
+}
+
+.footer_list-klinik i {
+    color: #228B22;
+    text-decoration: none;
+}
+
+
+/* ========================= */
+
+@media (max-width: 991px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* ===FOOTER FINISHED=== */
+/* ===================== */

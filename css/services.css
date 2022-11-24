@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #1BAC0E;
+    border: 2px solid yellow;
+}
+
+.til{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid yellow;
+}
+
+.til:hover{
+    color: white;
+    background:  #26850a;
+}
+
+.nav-link{
+    color: white;
+    background: #1BAC0E !important;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.nav-link.active{
+    color: yellow !important;
+    border-color: yellow !important;
+}
+
+
+
+.nav-link-1 {
+    font-size: 20px;
+    transition: .2s linear;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nav-link-1:hover {
+    transition: .2s linear;
+    opacity: 0.7;
+    background: rgba(0, 0, 0, 0.212);
+    transition: .2s linear;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: center;
+}
+
+
+.klinika__logo {
+    width: 100px;
+}
+
+/* ===KLINIKA SETVICES STARTS===
+/* ============================= */
+
+.klinika__services {
+    background-image: url(../img/services-page-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.klinika__services-item{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.klinika__services-item:hover .tab__pane-info{
+    color: white !important;
+    transition: .2s linear;
+}
+
+.klinika__services-item:hover{
+    background: rgb(2, 175, 2);
+    transition: .2s linear;
+    color: white;
+}
+
+.tab__pane-info {
+    color: #1BAC0E;
+    font-size: 30px;
+    
+} 
+
+.chooese__block {
+    background: white;
+    width: 382px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+
+
+/* ===LIGHT BTN=== */
+/* =============== */
+
+.light__btn .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light__btn .btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+
+.light__btn .btn:hover a {
+    letter-spacing: 3px;
+}
+
+.light__btn .btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.light__btn .btn:hover a::before {
+    transform: skewX(45deg) translate(200px);
+}
+
+.light__btn .btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.light__btn .btn:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.light__btn .btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.light__btn .btn:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.light__btn .btn:nth-child(1)::before,
+.light__btn .btn:nth-child(1)::after {
+    background: #1BAC0E;
+    box-shadow: 0 0 5px #1BAC0E, 0 0 15px #1BAC0E, 0 0 30px #1BAC0E, 0 0 60px #1BAC0E;
+}
+
+/* === FOOTER STARTS === */
+
+
+.footer {
+    background: #DCDCDC;
+    
+}
+
+.contact{
+    padding-bottom: 150px;
+}
+
+/* .hot_img{
+    margin-top: 160px;
+} */
+
+.hot_line {
+    font-size: 46px;
+    /* margin-top: 160px;
+   margin-left: 15px; */
+    color: red;
+}
+
+.phone__ico {
+    font-size: 30px;
+    color: #1BAC0E;
+}
+
+
+.number {
+    font-size: 30px;
+}
+
+
+.footer_list li {
+    list-style: none;
+}
+
+.footer_link a {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+/* .footer_list{
+    margin-top: 160px;
+    margin-left: 50px;
+} */
+
+
+/* .footer_list-klinik{
+    margin-top: 150px;
+    margin-left: 60px;
+} */
+
+.footer_list-klinik a {
+    font-size: 28px;
+}
+
+.footer_list-klinik i {
+    color: #1BAC0E;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* ===FOOTER FINISHED=== */
+/* ===================== */
